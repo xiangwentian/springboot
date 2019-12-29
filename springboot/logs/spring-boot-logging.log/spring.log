@@ -1,0 +1,14 @@
+2019-12-29 21:04:22.388  INFO 22620 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 22620 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-29 21:04:22.394  INFO 22620 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-29 21:04:24.203  INFO 22620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-29 21:04:24.222  INFO 22620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-29 21:04:24.222  INFO 22620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-29 21:04:24.421  INFO 22620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-29 21:04:24.424  INFO 22620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1944 ms
+2019-12-29 21:04:24.710  INFO 22620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-29 21:04:24.946  INFO 22620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-29 21:04:24.951  INFO 22620 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 3.597 seconds (JVM running for 5.824)
+2019-12-29 21:04:41.300  INFO 22620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-29 21:04:41.300  INFO 22620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-29 21:04:41.310  INFO 22620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-29 21:04:41.338  INFO 22620 --- [http-nio-8080-exec-1] c.w.controller.HelloWordController       : hello word,method index
