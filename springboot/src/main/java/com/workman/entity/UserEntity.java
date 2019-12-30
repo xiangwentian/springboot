@@ -27,4 +27,7 @@ public class UserEntity implements Serializable {
     @Column(name="t_address")
     private String address;
 
+    @Column(name="t_pwd")
+    private String pwd;
+
 }

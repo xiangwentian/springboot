@@ -241,3 +241,10 @@
 2019-12-30 14:03:32  [ http-nio-8080-exec-1:128070 ] - [ DEBUG ]  {conn-10001} commited
 2019-12-30 14:03:32  [ http-nio-8080-exec-1:128071 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
 2019-12-30 14:03:32  [ http-nio-8080-exec-1:128074 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:04:45  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-38} connected
+2019-12-30 15:04:45  [ main:250 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:04:45  [ main:261 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:04:47  [ main:1408 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:04:47  [ main:1556 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:04:49  [ main:3522 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:04:49  [ main:3523 ] - [ DEBUG ]  {conn-10001} pool-recycle
