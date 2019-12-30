@@ -248,3 +248,10 @@
 2019-12-30 15:04:47  [ main:1556 ] - [ DEBUG ]  {conn-10001} pool-recycle
 2019-12-30 15:04:49  [ main:3522 ] - [ DEBUG ]  {conn-10001} pool-connect
 2019-12-30 15:04:49  [ main:3523 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:11:06  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-39} connected
+2019-12-30 15:11:06  [ main:108 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:11:06  [ main:117 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:11:06  [ main:528 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:11:06  [ main:605 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:11:07  [ main:1544 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:11:07  [ main:1545 ] - [ DEBUG ]  {conn-10001} pool-recycle
