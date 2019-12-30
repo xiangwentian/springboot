@@ -255,3 +255,86 @@
 2019-12-30 15:11:06  [ main:605 ] - [ DEBUG ]  {conn-10001} pool-recycle
 2019-12-30 15:11:07  [ main:1544 ] - [ DEBUG ]  {conn-10001} pool-connect
 2019-12-30 15:11:07  [ main:1545 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:19:57  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-40} connected
+2019-12-30 15:19:57  [ main:99 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:19:57  [ main:107 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:19:57  [ main:536 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:19:57  [ main:630 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:19:58  [ main:1385 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:19:58  [ main:1385 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:22:58  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-41} connected
+2019-12-30 15:22:58  [ main:80 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:22:58  [ main:90 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:22:58  [ main:475 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:22:58  [ main:551 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:22:59  [ main:1216 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:22:59  [ main:1216 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:43:06  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-42} connected
+2019-12-30 15:43:06  [ main:81 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:43:06  [ main:88 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:43:07  [ main:513 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:43:07  [ main:588 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 15:43:07  [ main:1221 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 15:43:07  [ main:1222 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:05:54  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-43} connected
+2019-12-30 16:05:54  [ main:78 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:05:54  [ main:87 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:05:54  [ main:470 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:05:54  [ main:547 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:05:55  [ main:1168 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:05:55  [ main:1168 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:13:09  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-44} connected
+2019-12-30 16:13:09  [ main:96 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:13:09  [ main:106 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:13:10  [ main:560 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:13:10  [ main:652 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:13:10  [ main:1297 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:13:10  [ main:1298 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:15:38  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-45} connected
+2019-12-30 16:15:38  [ main:80 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:15:38  [ main:87 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:15:38  [ main:465 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:15:38  [ main:545 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:15:39  [ main:1150 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:15:39  [ main:1151 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:20:43  [ main:1 ] - [ DEBUG ]  {conn-10001,procId-49} connected
+2019-12-30 16:20:43  [ main:93 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:20:43  [ main:101 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:20:44  [ main:509 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:20:44  [ main:589 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:20:44  [ main:1239 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:20:44  [ main:1239 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:23:00  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-50} connected
+2019-12-30 16:23:00  [ main:81 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:23:00  [ main:89 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:23:01  [ main:473 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:23:01  [ main:548 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:23:01  [ main:1170 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:23:01  [ main:1170 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:37300 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:37320 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38057 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_, userentity0_.t_pwd as t_pwd5_0_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38075 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38076 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38084 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 13.6411 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_, userentity0_.t_pwd as t_pwd5_0_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38085 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38088 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38093 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38117 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38118 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38122 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38122 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-30 16:23:38  [ http-nio-8080-exec-5:38187 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61002 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61006 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61018 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61019 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61021 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} query executed. 3.484301 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_, userentity0_.t_pwd as t_pwd5_0_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61022 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} open
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61023 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61023 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61024 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} closed
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61025 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61027 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61027 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-30 16:24:01  [ http-nio-8080-exec-1:61031 ] - [ DEBUG ]  {conn-10001} pool-recycle

@@ -554,3 +554,381 @@ javax.servlet.ServletException: Could not resolve view with name 'index' in serv
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 
+2019-12-30 15:19:52.502  INFO 38588 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 38588 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 15:19:52.507  INFO 38588 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 15:19:53.889  INFO 38588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 15:19:53.996  INFO 38588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 1 JPA repository interfaces.
+2019-12-30 15:19:54.462  INFO 38588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 15:19:54.882  INFO 38588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 15:19:54.893  INFO 38588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 15:19:54.894  INFO 38588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 15:19:55.374  INFO 38588 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 15:19:55.384  INFO 38588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 15:19:55.385  INFO 38588 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2760 ms
+2019-12-30 15:19:55.507  INFO 38588 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 15:19:57.121  INFO 38588 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 15:19:58.492  INFO 38588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 15:19:59.144  WARN 38588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 15:19:59.365  INFO 38588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 15:19:59.369  INFO 38588 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 7.934 seconds (JVM running for 10.066)
+2019-12-30 15:20:29.743  INFO 38588 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 15:20:29.744  INFO 38588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 15:20:29.754  INFO 38588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-30 15:20:29.804 ERROR 38588 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'] with root cause
+
+javax.servlet.ServletException: Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1353)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-12-30 15:22:53.432  INFO 1436 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 1436 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 15:22:53.440  INFO 1436 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 15:22:54.887  INFO 1436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 15:22:55.039  INFO 1436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134ms. Found 1 JPA repository interfaces.
+2019-12-30 15:22:55.744  INFO 1436 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 15:22:56.252  INFO 1436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 15:22:56.266  INFO 1436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 15:22:56.267  INFO 1436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 15:22:56.699  INFO 1436 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 15:22:56.705  INFO 1436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 15:22:56.706  INFO 1436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3112 ms
+2019-12-30 15:22:56.801  INFO 1436 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 15:22:58.363  INFO 1436 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 15:22:59.564  INFO 1436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 15:23:00.272  WARN 1436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 15:23:00.499  INFO 1436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 15:23:00.502  INFO 1436 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 8.256 seconds (JVM running for 10.771)
+2019-12-30 15:23:57.440  INFO 1436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 15:23:57.440  INFO 1436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 15:23:57.450  INFO 1436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-30 15:23:57.484  INFO 1436 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController index method
+2019-12-30 15:23:57.502 ERROR 1436 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'] with root cause
+
+javax.servlet.ServletException: Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1353)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-12-30 15:43:02.045  INFO 14200 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 14200 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 15:43:02.052  INFO 14200 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 15:43:03.432  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 15:43:03.528  INFO 14200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+2019-12-30 15:43:04.045  INFO 14200 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 15:43:04.505  INFO 14200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 15:43:04.518  INFO 14200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 15:43:04.519  INFO 14200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 15:43:05.018  INFO 14200 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 15:43:05.027  INFO 14200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 15:43:05.028  INFO 14200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2853 ms
+2019-12-30 15:43:05.142  INFO 14200 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 15:43:06.724  INFO 14200 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 15:43:07.931  INFO 14200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 15:43:08.738  WARN 14200 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 15:43:08.949  INFO 14200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 15:43:08.952  INFO 14200 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 8.048 seconds (JVM running for 10.762)
+2019-12-30 15:43:58.023  INFO 14200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 15:43:58.023  INFO 14200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 15:43:58.034  INFO 14200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-30 15:43:58.071  INFO 14200 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController index method
+2019-12-30 15:43:58.094 ERROR 14200 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'] with root cause
+
+javax.servlet.ServletException: Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1353)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2019-12-30 16:05:49.693  INFO 31144 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 31144 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 16:05:49.700  INFO 31144 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 16:05:51.100  INFO 31144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 16:05:51.213  INFO 31144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99ms. Found 1 JPA repository interfaces.
+2019-12-30 16:05:51.635  INFO 31144 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 16:05:52.017  INFO 31144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 16:05:52.029  INFO 31144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 16:05:52.029  INFO 31144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 16:05:52.394  INFO 31144 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 16:05:52.400  INFO 31144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 16:05:52.400  INFO 31144 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2581 ms
+2019-12-30 16:05:52.518  INFO 31144 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 16:05:54.015  INFO 31144 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 16:05:55.169  INFO 31144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 16:05:55.497  WARN 31144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 16:05:55.750  INFO 31144 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 16:05:55.855  INFO 31144 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-30 16:05:56.098  INFO 31144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 16:05:56.101  INFO 31144 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 7.473 seconds (JVM running for 9.584)
+2019-12-30 16:06:16.872  INFO 31144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 16:06:16.872  INFO 31144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 16:06:16.880  INFO 31144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-30 16:06:16.918  INFO 31144 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController index method
+2019-12-30 16:13:04.955  INFO 22324 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 22324 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 16:13:04.972  INFO 22324 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 16:13:06.360  INFO 22324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 16:13:06.470  INFO 22324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 1 JPA repository interfaces.
+2019-12-30 16:13:06.986  INFO 22324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 16:13:07.403  INFO 22324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 16:13:07.415  INFO 22324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 16:13:07.416  INFO 22324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 16:13:07.778  INFO 22324 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 16:13:07.784  INFO 22324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 16:13:07.785  INFO 22324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2645 ms
+2019-12-30 16:13:07.887  INFO 22324 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 16:13:09.674  INFO 22324 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 16:13:10.956  INFO 22324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 16:13:11.283  WARN 22324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 16:13:11.437  INFO 22324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 16:13:11.524  INFO 22324 --- [main] com.workman.config.SessionConfiguration  : 进入SessionConfiguration的addInterceptor方法
+2019-12-30 16:13:11.568  INFO 22324 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-30 16:13:11.774  INFO 22324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 16:13:11.777  INFO 22324 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 7.83 seconds (JVM running for 10.183)
+2019-12-30 16:13:26.884  INFO 22324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 16:13:26.884  INFO 22324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 16:13:26.895  INFO 22324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-30 16:13:26.932  INFO 22324 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController index method
+2019-12-30 16:15:33.947  INFO 12312 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 12312 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 16:15:33.956  INFO 12312 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 16:15:35.212  INFO 12312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 16:15:35.313  INFO 12312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87ms. Found 1 JPA repository interfaces.
+2019-12-30 16:15:35.750  INFO 12312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 16:15:36.143  INFO 12312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 16:15:36.155  INFO 12312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 16:15:36.156  INFO 12312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 16:15:36.606  INFO 12312 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 16:15:36.612  INFO 12312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 16:15:36.612  INFO 12312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2538 ms
+2019-12-30 16:15:36.705  INFO 12312 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 16:15:38.172  INFO 12312 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 16:15:39.309  INFO 12312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 16:15:39.631  WARN 12312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 16:15:39.791  INFO 12312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 16:15:39.876  INFO 12312 --- [main] com.workman.config.SessionConfiguration  : 进入SessionConfiguration的addInterceptor方法
+2019-12-30 16:15:39.921  INFO 12312 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-30 16:15:40.118  INFO 12312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 16:15:40.122  INFO 12312 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 7.28 seconds (JVM running for 9.665)
+2019-12-30 16:15:54.778  INFO 12312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 16:15:54.779  INFO 12312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 16:15:54.789  INFO 12312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-30 16:15:54.811  INFO 12312 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:15:54.888  INFO 12312 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:15:54.888  INFO 12312 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:15:54.905  INFO 12312 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:15:54.905  INFO 12312 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:15:54.920  INFO 12312 --- [http-nio-8080-exec-2] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:19:25.128  INFO 12312 --- [http-nio-8080-exec-5] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:19:25.130  INFO 12312 --- [http-nio-8080-exec-5] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:19:25.131  INFO 12312 --- [http-nio-8080-exec-5] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:19:25.211  INFO 12312 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:19:25.212  INFO 12312 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:19:25.212  INFO 12312 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:19:25.223  INFO 12312 --- [http-nio-8080-exec-7] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:19:25.224  INFO 12312 --- [http-nio-8080-exec-7] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:19:25.224  INFO 12312 --- [http-nio-8080-exec-7] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:20:14.817  INFO 12312 --- [http-nio-8080-exec-9] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:20:14.818  INFO 12312 --- [http-nio-8080-exec-9] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:20:14.818  INFO 12312 --- [http-nio-8080-exec-9] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:20:14.870  INFO 12312 --- [http-nio-8080-exec-10] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:20:14.871  INFO 12312 --- [http-nio-8080-exec-10] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:20:14.871  INFO 12312 --- [http-nio-8080-exec-10] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:20:14.881  INFO 12312 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:20:14.882  INFO 12312 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:20:14.882  INFO 12312 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:20:38.885  INFO 37244 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 37244 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 16:20:38.895  INFO 37244 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 16:20:40.594  INFO 37244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 16:20:40.729  INFO 37244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119ms. Found 1 JPA repository interfaces.
+2019-12-30 16:20:41.223  INFO 37244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 16:20:41.665  INFO 37244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 16:20:41.676  INFO 37244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 16:20:41.676  INFO 37244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 16:20:42.081  INFO 37244 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 16:20:42.089  INFO 37244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 16:20:42.090  INFO 37244 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3077 ms
+2019-12-30 16:20:42.193  INFO 37244 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 16:20:43.691  INFO 37244 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 16:20:44.914  INFO 37244 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 16:20:45.541  WARN 37244 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 16:20:45.763  INFO 37244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 16:20:45.834  INFO 37244 --- [main] com.workman.config.SessionConfiguration  : 进入SessionConfiguration的addInterceptor方法
+2019-12-30 16:20:45.894  INFO 37244 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-30 16:20:46.231  INFO 37244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 16:20:46.234  INFO 37244 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 8.348 seconds (JVM running for 11.106)
+2019-12-30 16:21:26.270  INFO 37244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 16:21:26.271  INFO 37244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 16:21:26.281  INFO 37244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-30 16:21:26.308  INFO 37244 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:21:26.308  INFO 37244 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:21:26.322  INFO 37244 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:21:27.256  INFO 37244 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:21:27.357  INFO 37244 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:21:27.357  INFO 37244 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:21:27.368  INFO 37244 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:21:27.369  INFO 37244 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:21:27.370  INFO 37244 --- [http-nio-8080-exec-3] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:22:23.886  INFO 37244 --- [http-nio-8080-exec-5] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:22:23.887  INFO 37244 --- [http-nio-8080-exec-5] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:22:23.888  INFO 37244 --- [http-nio-8080-exec-5] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:22:23.950  INFO 37244 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:22:23.952  INFO 37244 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:22:23.953  INFO 37244 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:22:23.965  INFO 37244 --- [http-nio-8080-exec-7] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:22:23.966  INFO 37244 --- [http-nio-8080-exec-7] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:22:23.967  INFO 37244 --- [http-nio-8080-exec-7] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:22:46.383  INFO 37244 --- [http-nio-8080-exec-9] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:22:46.384  INFO 37244 --- [http-nio-8080-exec-9] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:22:46.385  INFO 37244 --- [http-nio-8080-exec-9] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:22:46.449  INFO 37244 --- [http-nio-8080-exec-10] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:22:46.450  INFO 37244 --- [http-nio-8080-exec-10] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:22:46.450  INFO 37244 --- [http-nio-8080-exec-10] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:22:46.460  INFO 37244 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:22:46.460  INFO 37244 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:22:46.461  INFO 37244 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:22:56.324 DEBUG 29324 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-12-30 16:22:56.519  INFO 29324 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 29324 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-30 16:22:56.525  INFO 29324 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-30 16:22:57.814  INFO 29324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-30 16:22:57.918  INFO 29324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91ms. Found 1 JPA repository interfaces.
+2019-12-30 16:22:58.343  INFO 29324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 16:22:58.737  INFO 29324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-30 16:22:58.747  INFO 29324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-30 16:22:58.748  INFO 29324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-30 16:22:59.126  INFO 29324 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-30 16:22:59.132  INFO 29324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-30 16:22:59.132  INFO 29324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2481 ms
+2019-12-30 16:22:59.235  INFO 29324 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-30 16:23:00.739  INFO 29324 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-30 16:23:01.896  INFO 29324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 16:23:02.228  WARN 29324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 16:23:02.435  INFO 29324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 16:23:02.488  INFO 29324 --- [main] com.workman.config.SessionConfiguration  : 进入SessionConfiguration的addInterceptor方法
+2019-12-30 16:23:02.537  INFO 29324 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-30 16:23:02.733  INFO 29324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-30 16:23:02.736  INFO 29324 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 7.217 seconds (JVM running for 9.338)
+2019-12-30 16:23:27.694  INFO 29324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 16:23:27.694  INFO 29324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-30 16:23:27.702  INFO 29324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-30 16:23:27.726  INFO 29324 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:23:27.726  INFO 29324 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:23:27.739  INFO 29324 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:23:28.732  INFO 29324 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:23:28.821  INFO 29324 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj=null
+2019-12-30 16:23:28.822  INFO 29324 --- [http-nio-8080-exec-2] c.w.interceptor.SessionInterceptor       : obj is null,跳转login_view方法
+2019-12-30 16:23:28.829  INFO 29324 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:23:28.830  INFO 29324 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:23:28.831  INFO 29324 --- [http-nio-8080-exec-3] com.workman.controller.IndexController   : invoke indexController login_view method
+2019-12-30 16:23:37.788  INFO 29324 --- [http-nio-8080-exec-5] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:23:37.789  INFO 29324 --- [http-nio-8080-exec-5] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:23:37.934  INFO 29324 --- [http-nio-8080-exec-5] com.workman.controller.LoginController   : invoke LoginController login method
+2019-12-30 16:23:38.965  INFO 29324 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:23:39.061  INFO 29324 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj={"address":"北京市通话区","age":30,"id":1,"name":"workman","pwd":"123456"}
+2019-12-30 16:23:39.062  INFO 29324 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : session验证成功，返回true
+2019-12-30 16:23:39.069  INFO 29324 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:23:39.069  INFO 29324 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj={"address":"北京市通话区","age":30,"id":1,"name":"workman","pwd":"123456"}
+2019-12-30 16:23:39.070  INFO 29324 --- [http-nio-8080-exec-6] c.w.interceptor.SessionInterceptor       : session验证成功，返回true
+2019-12-30 16:24:01.727  INFO 29324 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:24:01.728  INFO 29324 --- [http-nio-8080-exec-1] c.w.interceptor.SessionInterceptor       : 登录不做拦截
+2019-12-30 16:24:01.730  INFO 29324 --- [http-nio-8080-exec-1] com.workman.controller.LoginController   : invoke LoginController login method
+2019-12-30 16:25:03.532  INFO 29324 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : sessionInterceptor method preHandler start
+2019-12-30 16:25:03.534  INFO 29324 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : 验证session是否存在,obj={"address":"北京市通话区","age":30,"id":1,"name":"workman","pwd":"123456"}
+2019-12-30 16:25:03.534  INFO 29324 --- [http-nio-8080-exec-3] c.w.interceptor.SessionInterceptor       : session验证成功，返回true
+2019-12-30 16:25:03.535  INFO 29324 --- [http-nio-8080-exec-3] com.workman.controller.IndexController   : invoke indexController index method

@@ -2,6 +2,7 @@ package com.workman.controller;
 
 import com.workman.entity.UserEntity;
 import com.workman.jpa.UserJPA;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +15,7 @@ import javax.persistence.criteria.Root;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Optional;
 
+@Slf4j
 @RestController
 @RequestMapping(value = "/user")
 public class LoginController {
@@ -23,6 +25,7 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String login(UserEntity user, HttpServletRequest request) {
+        log.info("invoke LoginController login method");
         String result = "登录成功";
         Optional<UserEntity> userOpt = userJPA.findOne(new Specification<UserEntity>() {
             @Override

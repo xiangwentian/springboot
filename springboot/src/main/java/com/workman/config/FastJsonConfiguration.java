@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 
 import java.util.List;
 
-@Configuration
+//@Configuration
 public class FastJsonConfiguration extends WebMvcConfigurationSupport {
 
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
@@ -27,7 +27,7 @@ public class FastJsonConfiguration extends WebMvcConfigurationSupport {
         //将conver添加到convertiers中
         converters.add(fastConverter);
         //追加默认转换器
-        super.addDefaultHttpMessageConverters(converters);
+        //super.addDefaultHttpMessageConverters(converters);
 
     }
 }
