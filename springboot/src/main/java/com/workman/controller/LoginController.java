@@ -1,7 +1,9 @@
 package com.workman.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.workman.entity.UserEntity;
 import com.workman.jpa.UserJPA;
+import com.workman.util.LoggerUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
@@ -27,6 +29,7 @@ public class LoginController {
     public String login(UserEntity user, HttpServletRequest request) {
         log.info("invoke LoginController login method");
         String result = "登录成功";
+        JSONObject obj = new JSONObject();
         Optional<UserEntity> userOpt = userJPA.findOne(new Specification<UserEntity>() {
             @Override
             public Predicate toPredicate(Root<UserEntity> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
@@ -36,13 +39,19 @@ public class LoginController {
         });
         //user不存在
         if (userOpt == null) {
+            obj.put("msg", "用户:" + user.getName() + ",登录失败,user查询为空！");
+            request.setAttribute(LoggerUtils.LOGGER_RETURN, obj);
             return "用户不存在，登录失败";
         }//密码错误
         else if (!userOpt.get().getPwd().equals(user.getPwd())) {
+            obj.put("msg", "用户:" + user.getName() + ",登录失败,用户密码不正确！");
+            request.setAttribute(LoggerUtils.LOGGER_RETURN, obj);
             return "用户密码不正确，登录失败";
         }
         //到这里已经是登录成功的用户了，加session
-        request.getSession().setAttribute("session_user",userOpt.get());
+        request.getSession().setAttribute("session_user", userOpt.get());
+        obj.put("msg", "用户:" + user.getName() + ",登录成功！");
+        request.setAttribute(LoggerUtils.LOGGER_RETURN, obj);
         return result;
     }
 }

@@ -1,340 +1,668 @@
-2019-12-30 12:37:02  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-21} connected
-2019-12-30 12:37:02  [ main:96 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:37:02  [ main:103 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:37:03  [ main:502 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:37:03  [ main:584 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:37:04  [ main:1234 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:37:04  [ main:1234 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:38:07  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-22} connected
-2019-12-30 12:38:07  [ main:83 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:38:07  [ main:91 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:38:07  [ main:612 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:38:08  [ main:726 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:38:08  [ main:1598 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:38:08  [ main:1598 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:39:34  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-23} connected
-2019-12-30 12:39:34  [ main:75 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:39:34  [ main:84 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:39:34  [ main:538 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:39:34  [ main:614 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 12:39:35  [ main:1255 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 12:39:35  [ main:1255 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:31:59  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-24} connected
-2019-12-30 13:31:59  [ main:79 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:31:59  [ main:85 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:31:59  [ main:467 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:31:59  [ main:548 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:32:00  [ main:1282 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:32:00  [ main:1283 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:34:48  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-25} connected
-2019-12-30 13:34:48  [ main:87 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:34:48  [ main:94 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:34:48  [ main:478 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:34:48  [ main:556 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:34:49  [ main:1171 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:34:49  [ main:1171 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:34:49  [ main:1527 ] - [ DEBUG ]  {conn-10001} closed
-2019-12-30 13:35:24  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-26} connected
-2019-12-30 13:35:24  [ main:99 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:35:24  [ main:108 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:35:25  [ main:491 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:35:25  [ main:564 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:35:26  [ main:1185 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:35:26  [ main:1186 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:40:55  [ http-nio-8080-exec-1:330933 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:40:55  [ http-nio-8080-exec-1:330943 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331433 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331443 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331443 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331452 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 12.5612 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331452 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331455 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331460 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331472 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331473 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331477 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331478 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331484 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331485 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:40:56  [ http-nio-8080-exec-1:331487 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:46:33  [ main:1 ] - [ DEBUG ]  {conn-10001,procId-30} connected
-2019-12-30 13:46:33  [ main:97 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:46:33  [ main:105 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:46:34  [ main:486 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:46:34  [ main:561 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:46:34  [ main:1241 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:46:34  [ main:1242 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:46:43  [ http-nio-8080-exec-1:10220 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:46:43  [ http-nio-8080-exec-1:10229 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10741 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10753 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10753 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10762 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 12.7853 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10762 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10765 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10769 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10782 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10783 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10787 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10787 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10797 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10798 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:46:44  [ http-nio-8080-exec-1:10800 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:51:29  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-31} connected
-2019-12-30 13:51:29  [ main:78 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:51:29  [ main:85 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:51:29  [ main:471 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:51:29  [ main:548 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:51:30  [ main:1176 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:51:30  [ main:1176 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:51:42  [ http-nio-8080-exec-1:13672 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:51:42  [ http-nio-8080-exec-1:13682 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14183 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14200 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14201 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14209 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 16.999401 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14210 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14213 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14217 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14230 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14231 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14235 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14236 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14242 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14243 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:51:43  [ http-nio-8080-exec-1:14246 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:53:37  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-32} connected
-2019-12-30 13:53:37  [ main:80 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:53:37  [ main:87 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:53:38  [ main:466 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:53:38  [ main:549 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:53:38  [ main:1163 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:53:38  [ main:1164 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:8781 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:8791 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9262 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9274 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9274 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9281 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 13.038101 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9281 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9284 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9288 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9299 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9300 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9304 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9305 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9311 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9312 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:53:46  [ http-nio-8080-exec-1:9315 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:54:27  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-33} connected
-2019-12-30 13:54:27  [ main:80 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:54:27  [ main:88 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:54:28  [ main:471 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:54:28  [ main:549 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:54:28  [ main:1168 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:54:28  [ main:1169 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:54:43  [ http-nio-8080-exec-1:16417 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:54:43  [ http-nio-8080-exec-1:16424 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16876 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16887 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16888 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16894 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 11.177199 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16895 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16898 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16903 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16914 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16915 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16919 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16920 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16926 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16926 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:54:44  [ http-nio-8080-exec-1:16929 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:57:43  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-34} connected
-2019-12-30 13:57:43  [ main:81 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:57:43  [ main:90 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:57:43  [ main:508 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:57:43  [ main:594 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:57:44  [ main:1285 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:57:44  [ main:1286 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:57:55  [ http-nio-8080-exec-1:12584 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:57:55  [ http-nio-8080-exec-1:12593 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13116 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13131 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13131 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13141 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 14.6933 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13143 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13149 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13155 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13174 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13176 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13183 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13184 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13191 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13192 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:57:56  [ http-nio-8080-exec-1:13316 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:58:51  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-35} connected
-2019-12-30 13:58:51  [ main:85 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:58:51  [ main:93 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:58:52  [ main:484 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:58:52  [ main:565 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:58:52  [ main:1218 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:58:52  [ main:1218 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:29558 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:29566 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30037 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30048 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30048 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30056 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 12.273201 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30057 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30060 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30064 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30076 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30077 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30082 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30083 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30089 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30089 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 13:59:21  [ http-nio-8080-exec-1:30195 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:00:47  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-36} connected
-2019-12-30 14:00:47  [ main:79 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:00:47  [ main:89 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:00:48  [ main:490 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:00:48  [ main:565 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:00:48  [ main:1171 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:00:48  [ main:1171 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:00:57  [ http-nio-8080-exec-1:10150 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:00:57  [ http-nio-8080-exec-1:10157 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10620 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10630 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10631 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10638 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 11.4579 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10639 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10642 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10647 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10658 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10658 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10663 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10664 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10670 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10671 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 14:00:58  [ http-nio-8080-exec-1:10674 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:01:24  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-37} connected
-2019-12-30 14:01:24  [ main:76 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:01:24  [ main:82 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:01:25  [ main:578 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:01:25  [ main:651 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:01:25  [ main:1274 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:01:25  [ main:1275 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:127543 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:127551 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128020 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128030 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : []
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128031 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : []
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128039 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 12.6536 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128040 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128042 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name]
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128046 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman]
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128057 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [2, 北京市通话区, 30, workman1]
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128059 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [3, , 30, workman2]
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128063 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128064 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128070 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128071 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 14:03:32  [ http-nio-8080-exec-1:128074 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:04:45  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-38} connected
-2019-12-30 15:04:45  [ main:250 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:04:45  [ main:261 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:04:47  [ main:1408 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:04:47  [ main:1556 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:04:49  [ main:3522 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:04:49  [ main:3523 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:11:06  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-39} connected
-2019-12-30 15:11:06  [ main:108 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:11:06  [ main:117 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:11:06  [ main:528 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:11:06  [ main:605 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:11:07  [ main:1544 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:11:07  [ main:1545 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:19:57  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-40} connected
-2019-12-30 15:19:57  [ main:99 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:19:57  [ main:107 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:19:57  [ main:536 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:19:57  [ main:630 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:19:58  [ main:1385 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:19:58  [ main:1385 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:22:58  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-41} connected
-2019-12-30 15:22:58  [ main:80 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:22:58  [ main:90 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:22:58  [ main:475 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:22:58  [ main:551 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:22:59  [ main:1216 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:22:59  [ main:1216 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:43:06  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-42} connected
-2019-12-30 15:43:06  [ main:81 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:43:06  [ main:88 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:43:07  [ main:513 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:43:07  [ main:588 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 15:43:07  [ main:1221 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 15:43:07  [ main:1222 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:05:54  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-43} connected
-2019-12-30 16:05:54  [ main:78 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:05:54  [ main:87 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:05:54  [ main:470 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:05:54  [ main:547 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:05:55  [ main:1168 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:05:55  [ main:1168 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:13:09  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-44} connected
-2019-12-30 16:13:09  [ main:96 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:13:09  [ main:106 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:13:10  [ main:560 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:13:10  [ main:652 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:13:10  [ main:1297 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:13:10  [ main:1298 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:15:38  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-45} connected
-2019-12-30 16:15:38  [ main:80 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:15:38  [ main:87 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:15:38  [ main:465 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:15:38  [ main:545 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:15:39  [ main:1150 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:15:39  [ main:1151 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:20:43  [ main:1 ] - [ DEBUG ]  {conn-10001,procId-49} connected
-2019-12-30 16:20:43  [ main:93 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:20:43  [ main:101 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:20:44  [ main:509 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:20:44  [ main:589 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:20:44  [ main:1239 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:20:44  [ main:1239 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:23:00  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-50} connected
-2019-12-30 16:23:00  [ main:81 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:23:00  [ main:89 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:23:01  [ main:473 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:23:01  [ main:548 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:23:01  [ main:1170 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:23:01  [ main:1170 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:37300 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:37320 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38057 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_, userentity0_.t_pwd as t_pwd5_0_ from t_user userentity0_ where userentity0_.t_name=?
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38075 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38076 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38084 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 13.6411 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_, userentity0_.t_pwd as t_pwd5_0_ from t_user userentity0_ where userentity0_.t_name=?
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38085 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38088 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name, t_pwd]
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38093 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman, 123456]
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38117 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38118 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38122 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38122 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 16:23:38  [ http-nio-8080-exec-5:38187 ] - [ DEBUG ]  {conn-10001} pool-recycle
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61002 ] - [ DEBUG ]  {conn-10001} pool-connect
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61006 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61018 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61019 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61021 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} query executed. 3.484301 millis. select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_, userentity0_.t_pwd as t_pwd5_0_ from t_user userentity0_ where userentity0_.t_name=?
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61022 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} open
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61023 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} Header: [t_id, t_address, t_age, t_name, t_pwd]
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61023 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} Result: [1, 北京市通话区, 30, workman, 123456]
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61024 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} closed
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61025 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61027 ] - [ DEBUG ]  {conn-10001} commited
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61027 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
-2019-12-30 16:24:01  [ http-nio-8080-exec-1:61031 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 10:58:05  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-10} connected
+2019-12-31 10:58:06  [ main:355 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 10:58:06  [ main:364 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 10:58:06  [ main:1278 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 10:58:07  [ main:1647 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 10:58:09  [ main:3305 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 10:58:09  [ main:3305 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 10:59:23  [ http-nio-8080-exec-6:78142 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 10:59:23  [ http-nio-8080-exec-6:78176 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79005 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79023 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79024 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79033 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 17.0617 millis. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79034 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79037 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79042 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79062 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79063 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79068 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79069 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 10:59:24  [ http-nio-8080-exec-6:79114 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:04:33  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-11} connected
+2019-12-31 11:04:33  [ main:209 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:04:33  [ main:226 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:04:34  [ main:774 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:04:34  [ main:852 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:04:35  [ main:1597 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:04:35  [ main:1598 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56361 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56370 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56884 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56967 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56968 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56980 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 17.1912 millis. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56981 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56986 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:56996 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:57017 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:57018 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:57062 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:57064 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:05:30  [ http-nio-8080-exec-6:57116 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:11:02  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-12} connected
+2019-12-31 11:11:02  [ main:111 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:11:02  [ main:120 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:11:02  [ main:643 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:11:02  [ main:741 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:11:03  [ main:1635 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:11:03  [ main:1637 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:12:14  [ http-nio-8080-exec-1:72454 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:12:14  [ http-nio-8080-exec-1:72460 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73069 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73105 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [null]
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73106 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73116 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} query executed. 17.5223 millis. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73116 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73119 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73124 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73127 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73134 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73134 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:12:15  [ http-nio-8080-exec-1:73155 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98200 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98202 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98209 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [workman]
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98209 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR]
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98212 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} query executed. 3.4583 millis. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98213 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} open
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98214 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98216 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98232 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50001} closed
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98233 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98235 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98235 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:12:40  [ http-nio-8080-exec-5:98259 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:13:56  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-13} connected
+2019-12-31 11:13:56  [ main:95 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:13:56  [ main:104 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:13:56  [ main:581 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:13:56  [ main:678 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:13:57  [ main:1345 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:13:57  [ main:1346 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:14:30  [ http-nio-8080-exec-1:34400 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:14:30  [ http-nio-8080-exec-1:34403 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:14:30  [ Druid-ConnectionPool-Create-993452032:34545 ] - [ DEBUG ]  {conn-10002,procId-14} connected
+2019-12-31 11:14:30  [ http-nio-8080-exec-1:34590 ] - [ DEBUG ]  {conn-10002} pool-connect
+2019-12-31 11:14:30  [ http-nio-8080-exec-1:34591 ] - [ DEBUG ]  {conn-10002} setAutoCommit false
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35049 ] - [ DEBUG ]  {conn-10002, pstmt-20000} created. select next_val as id_val from hibernate_sequence for update
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35063 ] - [ DEBUG ]  {conn-10002, pstmt-20000} Parameters : []
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35064 ] - [ DEBUG ]  {conn-10002, pstmt-20000} Types : []
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35147 ] - [ ERROR ]  {conn-10002, pstmt-20000} execute error. select next_val as id_val from hibernate_sequence for update
+java.sql.SQLSyntaxErrorException: Table 'workman.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3240)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3237)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeQuery(WallFilter.java:648)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3237)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3237)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:181)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at org.hibernate.id.enhanced.TableStructure.executeQuery(TableStructure.java:216)
+	at org.hibernate.id.enhanced.TableStructure.access$300(TableStructure.java:46)
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:138)
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:126)
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:55)
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:57)
+	at org.hibernate.id.enhanced.TableStructure$1.getNextValue(TableStructure.java:125)
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40)
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:520)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:120)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:108)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:702)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:688)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy80.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy90.save(Unknown Source)
+	at com.workman.interceptor.LoggerInterceptor.afterCompletion(LoggerInterceptor.java:101)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:179)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35157 ] - [ DEBUG ]  {conn-10002, pstmt-20000} clearParameters. 
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35158 ] - [ DEBUG ]  {conn-10002, pstmt-20000} closed
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35163 ] - [ DEBUG ]  {conn 10002} rollback
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35272 ] - [ DEBUG ]  {conn-10002} setAutoCommit true
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35275 ] - [ DEBUG ]  {conn-10002} pool-recycle
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35295 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:14:31  [ http-nio-8080-exec-1:35300 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36144 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36145 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36148 ] - [ DEBUG ]  {conn-10002} pool-connect
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36150 ] - [ DEBUG ]  {conn-10002} setAutoCommit false
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36152 ] - [ DEBUG ]  {conn-10002, pstmt-20001} created. select next_val as id_val from hibernate_sequence for update
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36153 ] - [ DEBUG ]  {conn-10002, pstmt-20001} Parameters : []
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36154 ] - [ DEBUG ]  {conn-10002, pstmt-20001} Types : []
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36157 ] - [ ERROR ]  {conn-10002, pstmt-20001} execute error. select next_val as id_val from hibernate_sequence for update
+java.sql.SQLSyntaxErrorException: Table 'workman.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3240)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3237)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeQuery(WallFilter.java:648)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3237)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3237)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:181)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at org.hibernate.id.enhanced.TableStructure.executeQuery(TableStructure.java:216)
+	at org.hibernate.id.enhanced.TableStructure.access$300(TableStructure.java:46)
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:138)
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:126)
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:55)
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:57)
+	at org.hibernate.id.enhanced.TableStructure$1.getNextValue(TableStructure.java:125)
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40)
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:520)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:120)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:108)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:702)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:688)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy80.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy90.save(Unknown Source)
+	at com.workman.interceptor.LoggerInterceptor.afterCompletion(LoggerInterceptor.java:101)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:179)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36167 ] - [ DEBUG ]  {conn-10002, pstmt-20001} clearParameters. 
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36168 ] - [ DEBUG ]  {conn-10002, pstmt-20001} closed
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36186 ] - [ DEBUG ]  {conn 10002} rollback
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36187 ] - [ DEBUG ]  {conn-10002} setAutoCommit true
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36190 ] - [ DEBUG ]  {conn-10002} pool-recycle
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36191 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:14:32  [ http-nio-8080-exec-2:36194 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:15:58  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-15} connected
+2019-12-31 11:15:58  [ main:79 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:15:58  [ main:86 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:15:59  [ main:475 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:15:59  [ main:654 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:16:00  [ main:1314 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:16:00  [ main:1315 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:17:11  [ http-nio-8080-exec-1:72812 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:17:11  [ http-nio-8080-exec-1:72814 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73292 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73305 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [0:0:0:0:0:0:0:1, 8, 200, GET, {}, null, 1577762231625, 8D5C3FA36D73B36B1CDA801CE1A09AB9, null, /user/index]
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73306 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR, INTEGER, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73717 ] - [ ERROR ]  {conn-10001, pstmt-20000} execute error. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+java.sql.SQLException: Field 'ali_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3253)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1092)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3251)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeUpdate(WallFilter.java:662)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3251)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1092)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3251)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeUpdate(PreparedStatementProxyImpl.java:194)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:255)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3106)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3699)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:335)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:292)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:198)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:108)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:702)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:688)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy80.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy90.save(Unknown Source)
+	at com.workman.interceptor.LoggerInterceptor.afterCompletion(LoggerInterceptor.java:101)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:179)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73732 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73733 ] - [ DEBUG ]  {conn-10001, pstmt-20000} closed
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73741 ] - [ DEBUG ]  {conn 10001} rollback
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73742 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:17:12  [ http-nio-8080-exec-1:73746 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74918 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74919 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74924 ] - [ DEBUG ]  {conn-10001, pstmt-20001} created. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74926 ] - [ DEBUG ]  {conn-10001, pstmt-20001} Parameters : [0:0:0:0:0:0:0:1, 1147, 200, GET, {}, null, 1577762233803, 6BC27329F142A999D1FA6699FDF9F396, null, /user/login_view]
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74927 ] - [ DEBUG ]  {conn-10001, pstmt-20001} Types : [VARCHAR, INTEGER, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74931 ] - [ ERROR ]  {conn-10001, pstmt-20001} execute error. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+java.sql.SQLException: Field 'ali_id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3253)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1092)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3251)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeUpdate(WallFilter.java:662)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3251)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1092)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:3251)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeUpdate(PreparedStatementProxyImpl.java:194)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:255)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3106)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3699)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:335)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:292)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:198)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:192)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:108)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:702)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:688)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy80.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy90.save(Unknown Source)
+	at com.workman.interceptor.LoggerInterceptor.afterCompletion(LoggerInterceptor.java:101)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:179)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74949 ] - [ DEBUG ]  {conn-10001, pstmt-20001} clearParameters. 
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74950 ] - [ DEBUG ]  {conn-10001, pstmt-20001} closed
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74955 ] - [ DEBUG ]  {conn 10001} rollback
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74956 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:17:13  [ http-nio-8080-exec-3:74958 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:21:40  [ main:0 ] - [ DEBUG ]  {conn-10001,procId-17} connected
+2019-12-31 11:21:41  [ main:88 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:21:41  [ main:95 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:21:41  [ main:477 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:21:41  [ main:562 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:21:42  [ main:1214 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:21:42  [ main:1215 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114275 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114277 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114664 ] - [ DEBUG ]  {conn-10001, pstmt-20000} created. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114683 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [0:0:0:0:0:0:0:1, 1017, 200, GET, {}, null, 1577762615100, 6BC27329F142A999D1FA6699FDF9F396, null, /user/login_view]
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114684 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR, INTEGER, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114720 ] - [ DEBUG ]  {conn-10001, pstmt-20000} update executed. effort 1. 41.713 millis. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114743 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} open
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114750 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Header: [GENERATED_KEY]
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114757 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} Result: [1]
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114763 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50000} closed
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114764 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114784 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114784 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:23:35  [ http-nio-8080-exec-1:114786 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:23:53  [ http-nio-8080-exec-2:132884 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:23:53  [ http-nio-8080-exec-2:132891 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133184 ] - [ DEBUG ]  {conn-10001, pstmt-20001} created. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133185 ] - [ DEBUG ]  {conn-10001, pstmt-20001} Parameters : [workman]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133186 ] - [ DEBUG ]  {conn-10001, pstmt-20001} Types : [VARCHAR]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133188 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50001} query executed. 2.7891 millis. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133189 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50001} open
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133189 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50001} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133191 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50001} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133197 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50001} closed
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133197 ] - [ DEBUG ]  {conn-10001, pstmt-20001} clearParameters. 
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133200 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133201 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133219 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133222 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133223 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133226 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [0:0:0:0:0:0:0:1, 451, 200, GET, {"name":["workman"],"pwd":["123456"]}, {"msg":"用户:workman,登录成功！"}, 1577762634139, E7C4C110C81A023E30FB1E7FD121960D, null, /user/login]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133227 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR, INTEGER, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133230 ] - [ DEBUG ]  {conn-10001, pstmt-20000} update executed. effort 1. 3.6369 millis. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133231 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50002} open
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133232 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50002} Header: [GENERATED_KEY]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133232 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50002} Result: [2]
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133233 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50002} closed
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133234 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133355 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133355 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:23:54  [ http-nio-8080-exec-2:133373 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144210 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144212 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144215 ] - [ DEBUG ]  {conn-10001, pstmt-20001} Parameters : [workman]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144216 ] - [ DEBUG ]  {conn-10001, pstmt-20001} Types : [VARCHAR]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144219 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50003} query executed. 3.4923 millis. select userentity0_.t_id as t_id1_1_, userentity0_.t_address as t_addres2_1_, userentity0_.t_age as t_age3_1_, userentity0_.t_name as t_name4_1_, userentity0_.t_pwd as t_pwd5_1_ from t_user userentity0_ where userentity0_.t_name=?
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144220 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50003} open
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144221 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50003} Header: [t_id, t_address, t_age, t_name, t_pwd]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144221 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50003} Result: [1, 北京市通话区, 30, workman, 123456]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144223 ] - [ DEBUG ]  {conn-10001, pstmt-20001, rs-50003} closed
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144223 ] - [ DEBUG ]  {conn-10001, pstmt-20001} clearParameters. 
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144225 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144225 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144232 ] - [ DEBUG ]  {conn-10001} pool-recycle
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144234 ] - [ DEBUG ]  {conn-10001} pool-connect
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144235 ] - [ DEBUG ]  {conn-10001} setAutoCommit false
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144239 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Parameters : [0:0:0:0:0:0:0:1, 27, 200, GET, {"name":["workman"],"pwd":["123456"]}, {"msg":"用户:workman,登录成功！"}, 1577762645152, E7C4C110C81A023E30FB1E7FD121960D, null, /user/login]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144240 ] - [ DEBUG ]  {conn-10001, pstmt-20000} Types : [VARCHAR, INTEGER, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144270 ] - [ DEBUG ]  {conn-10001, pstmt-20000} update executed. effort 1. 30.4135 millis. insert into t_logger_infos (ali_client_ip, ali_time_consuming, ali_http_status_code, ali_method, ali_param_data, ali_return_data, ali_return_time, ali_session_id, ali_type, ali_uri) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144271 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50004} open
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144272 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50004} Header: [GENERATED_KEY]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144272 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50004} Result: [3]
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144274 ] - [ DEBUG ]  {conn-10001, pstmt-20000, rs-50004} closed
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144275 ] - [ DEBUG ]  {conn-10001, pstmt-20000} clearParameters. 
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144285 ] - [ DEBUG ]  {conn-10001} commited
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144286 ] - [ DEBUG ]  {conn-10001} setAutoCommit true
+2019-12-31 11:24:05  [ http-nio-8080-exec-4:144288 ] - [ DEBUG ]  {conn-10001} pool-recycle
