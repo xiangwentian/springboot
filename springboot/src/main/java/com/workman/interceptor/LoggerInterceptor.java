@@ -1,6 +1,5 @@
 package com.workman.interceptor;
 
-import ch.qos.logback.classic.util.LoggerNameUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.workman.entity.LoggerEntity;
@@ -14,10 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.Serializable;
 
 /**
- * @Description TODO
+ * @Description 日志处理拦截器
  * @Auth 向问天
  * @Date 2019/12/31 9:32
  * @Version 1.0
