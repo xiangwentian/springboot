@@ -133,3 +133,419 @@ com.workman.controller.HelloWordController#index() mapped.
 2019-12-29 22:07:34.524  INFO 39332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-12-29 22:07:34.533  INFO 39332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
 2019-12-29 22:07:34.561  INFO 39332 --- [http-nio-8080-exec-1] com.workman.controller.IndexController   : invoke IndexController method index
+2019-12-31 14:55:40.233  INFO 31192 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 31192 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 14:55:40.264  INFO 31192 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 14:55:41.718  INFO 31192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 14:55:41.774  INFO 31192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 JPA repository interfaces.
+2019-12-31 14:55:42.349  INFO 31192 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 14:55:42.795  INFO 31192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 14:55:42.811  INFO 31192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 14:55:42.811  INFO 31192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 14:55:43.233  INFO 31192 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 14:55:43.239  INFO 31192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 14:55:43.240  INFO 31192 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2864 ms
+2019-12-31 14:55:43.322  INFO 31192 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 14:55:43.430  WARN 31192 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 14:55:43.435  INFO 31192 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 14:55:43.494  INFO 31192 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 14:55:43.497 ERROR 31192 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 14:59:37.523  INFO 8388 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 8388 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 14:59:37.532  INFO 8388 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 14:59:39.058  INFO 8388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 14:59:39.102  INFO 8388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 JPA repository interfaces.
+2019-12-31 14:59:39.776  INFO 8388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 14:59:40.285  INFO 8388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 14:59:40.302  INFO 8388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 14:59:40.302  INFO 8388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 14:59:40.835  INFO 8388 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 14:59:40.842  INFO 8388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 14:59:40.843  INFO 8388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3196 ms
+2019-12-31 14:59:40.935  INFO 8388 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 14:59:41.015  WARN 8388 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 14:59:41.018  INFO 8388 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 14:59:41.049  INFO 8388 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 14:59:41.051 ERROR 8388 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 15:09:32.640  INFO 8776 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 8776 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:09:32.646  INFO 8776 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:09:33.872  INFO 8776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 15:09:33.915  INFO 8776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 JPA repository interfaces.
+2019-12-31 15:09:34.298  INFO 8776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 15:09:34.660  INFO 8776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:09:34.672  INFO 8776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:09:34.672  INFO 8776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:09:35.056  INFO 8776 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:09:35.064  INFO 8776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:09:35.065  INFO 8776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2301 ms
+2019-12-31 15:09:35.149  INFO 8776 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 15:09:35.227  WARN 8776 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 15:09:35.232  INFO 8776 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 15:09:35.256  INFO 8776 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 15:09:35.260 ERROR 8776 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 15:12:45.402 DEBUG 1392 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-12-31 15:12:45.613  INFO 1392 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 1392 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:12:45.616  INFO 1392 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:12:47.230  INFO 1392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 15:12:47.270  INFO 1392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 JPA repository interfaces.
+2019-12-31 15:12:47.821  INFO 1392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 15:12:48.314  INFO 1392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:12:48.325  INFO 1392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:12:48.327  INFO 1392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:12:48.711  INFO 1392 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:12:48.717  INFO 1392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:12:48.719  INFO 1392 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2949 ms
+2019-12-31 15:12:48.797  INFO 1392 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 15:12:48.880  WARN 1392 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 15:12:48.884  INFO 1392 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 15:12:48.912  INFO 1392 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 15:12:48.916 ERROR 1392 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 15:14:34.559  INFO 30612 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 30612 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:14:34.568  INFO 30612 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:14:35.865  INFO 30612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 15:14:35.899  INFO 30612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 JPA repository interfaces.
+2019-12-31 15:14:36.317  INFO 30612 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 15:14:36.803  INFO 30612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:14:36.822  INFO 30612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:14:36.823  INFO 30612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:14:37.220  INFO 30612 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:14:37.227  INFO 30612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:14:37.227  INFO 30612 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2503 ms
+2019-12-31 15:14:37.317  INFO 30612 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 15:14:37.405  WARN 30612 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 15:14:37.409  INFO 30612 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 15:14:37.442  INFO 30612 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 15:14:37.446 ERROR 30612 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 15:21:25.892  INFO 19372 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 19372 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:21:25.909  INFO 19372 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:21:27.391  INFO 19372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 15:21:27.446  INFO 19372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 0 JPA repository interfaces.
+2019-12-31 15:21:28.024  INFO 19372 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 15:21:28.394  INFO 19372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:21:28.408  INFO 19372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:21:28.408  INFO 19372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:21:28.871  INFO 19372 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:21:28.877  INFO 19372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:21:28.878  INFO 19372 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2827 ms
+2019-12-31 15:21:28.965  INFO 19372 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 15:21:29.042  WARN 19372 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 15:21:29.046  INFO 19372 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 15:21:29.071  INFO 19372 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 15:21:29.075 ERROR 19372 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 15:25:43.756  INFO 19840 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 19840 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:25:43.766  INFO 19840 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:25:45.302  INFO 19840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-31 15:25:45.354  INFO 19840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 JPA repository interfaces.
+2019-12-31 15:25:45.984  INFO 19840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-31 15:25:46.392  INFO 19840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:25:46.411  INFO 19840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:25:46.411  INFO 19840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:25:46.840  INFO 19840 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:25:46.848  INFO 19840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:25:46.848  INFO 19840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2912 ms
+2019-12-31 15:25:46.933  INFO 19840 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-31 15:25:47.010  WARN 19840 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-12-31 15:25:47.015  INFO 19840 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 15:25:47.049  INFO 19840 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 15:25:47.057 ERROR 19840 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-12-31 15:34:33.184  INFO 27168 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 27168 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:34:33.208  INFO 27168 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:34:35.620  INFO 27168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:34:35.645  INFO 27168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:34:35.648  INFO 27168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:34:36.134  INFO 27168 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:34:36.141  INFO 27168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:34:36.142  INFO 27168 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2820 ms
+2019-12-31 15:34:36.381  INFO 27168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:34:36.476  INFO 27168 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:34:36.670  INFO 27168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:34:36.675  INFO 27168 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 4.534 seconds (JVM running for 7.183)
+2019-12-31 15:35:43.766  INFO 23868 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 23868 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:35:43.787  INFO 23868 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:35:47.362  INFO 23868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:35:47.382  INFO 23868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:35:47.382  INFO 23868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:35:47.966  INFO 23868 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:35:47.981  INFO 23868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:35:47.982  INFO 23868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3773 ms
+2019-12-31 15:35:48.313  INFO 23868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:35:48.446  INFO 23868 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:35:48.677  INFO 23868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:35:48.682  INFO 23868 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 6.185 seconds (JVM running for 10.283)
+2019-12-31 15:37:57.502  INFO 32028 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 32028 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:37:57.510  INFO 32028 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:37:59.291  INFO 32028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:37:59.305  INFO 32028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:37:59.305  INFO 32028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:37:59.734  INFO 32028 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:37:59.742  INFO 32028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:37:59.743  INFO 32028 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2081 ms
+2019-12-31 15:37:59.967  INFO 32028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:38:00.064  INFO 32028 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:38:00.245  INFO 32028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:38:00.251  INFO 32028 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 3.71 seconds (JVM running for 6.074)
+2019-12-31 15:38:12.101  INFO 32028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:38:12.102  INFO 32028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:38:12.114  INFO 32028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-12-31 15:40:55.713  INFO 19084 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 19084 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:40:55.724  INFO 19084 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:40:57.365  INFO 19084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:40:57.380  INFO 19084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:40:57.380  INFO 19084 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:40:57.827  INFO 19084 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:40:57.835  INFO 19084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:40:57.839  INFO 19084 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2025 ms
+2019-12-31 15:40:58.044  INFO 19084 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:40:58.119  INFO 19084 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:40:58.262  INFO 19084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:40:58.267  INFO 19084 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 3.596 seconds (JVM running for 5.947)
+2019-12-31 15:41:23.715  INFO 19084 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:41:23.715  INFO 19084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:41:23.726  INFO 19084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-31 15:43:34.380 DEBUG 23968 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-12-31 15:43:34.583  INFO 23968 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 23968 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:43:34.583  INFO 23968 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:43:36.801  INFO 23968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:43:36.815  INFO 23968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:43:36.815  INFO 23968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:43:37.767  INFO 23968 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:43:37.775  INFO 23968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:43:37.777  INFO 23968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2982 ms
+2019-12-31 15:43:38.003  INFO 23968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:43:38.112  INFO 23968 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:43:38.260  INFO 23968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:43:38.263  INFO 23968 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 4.775 seconds (JVM running for 7.355)
+2019-12-31 15:43:50.997  INFO 23968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:43:50.997  INFO 23968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:43:51.006  INFO 23968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-31 15:45:56.212 DEBUG 23208 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-12-31 15:45:56.508  INFO 23208 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 23208 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:45:56.513  INFO 23208 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:45:58.681  INFO 23208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:45:58.696  INFO 23208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:45:58.697  INFO 23208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:45:59.131  INFO 23208 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:45:59.143  INFO 23208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:45:59.144  INFO 23208 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2447 ms
+2019-12-31 15:45:59.450  INFO 23208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:45:59.581  INFO 23208 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:45:59.792  INFO 23208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:45:59.799  INFO 23208 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 4.546 seconds (JVM running for 8.478)
+2019-12-31 15:46:09.570  INFO 23208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:46:09.571  INFO 23208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:46:09.586  INFO 23208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-12-31 15:49:17.520  INFO 23208 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:49:29.383  INFO 10624 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 10624 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:49:29.392  INFO 10624 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:49:31.735  INFO 10624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:49:31.751  INFO 10624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:49:31.752  INFO 10624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:49:32.316  INFO 10624 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:49:32.325  INFO 10624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:49:32.326  INFO 10624 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2808 ms
+2019-12-31 15:49:32.798  INFO 10624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:49:32.910  INFO 10624 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:49:33.138  INFO 10624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:49:33.147  INFO 10624 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 5.165 seconds (JVM running for 8.049)
+2019-12-31 15:49:53.990  INFO 10624 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:49:53.990  INFO 10624 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:49:53.999  INFO 10624 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-31 15:50:42.435  INFO 10624 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:51:05.022  INFO 11900 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 11900 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:51:05.027  INFO 11900 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:51:06.816  INFO 11900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:51:06.831  INFO 11900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:51:06.833  INFO 11900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:51:07.261  INFO 11900 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:51:07.267  INFO 11900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:51:07.269  INFO 11900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2055 ms
+2019-12-31 15:51:07.483  INFO 11900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:51:07.567  INFO 11900 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:51:07.719  INFO 11900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:51:07.722  INFO 11900 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 3.75 seconds (JVM running for 6.223)
+2019-12-31 15:51:33.016  INFO 11900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:51:33.018  INFO 11900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:51:33.025  INFO 11900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-31 15:54:44.496  INFO 14044 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 14044 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:54:44.504  INFO 14044 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:54:46.157  INFO 14044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:54:46.176  INFO 14044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:54:46.178  INFO 14044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:54:46.676  INFO 14044 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:54:46.682  INFO 14044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:54:46.683  INFO 14044 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2093 ms
+2019-12-31 15:54:46.873  INFO 14044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:54:46.955  INFO 14044 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:54:47.100  INFO 14044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:54:47.104  INFO 14044 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 3.642 seconds (JVM running for 6.013)
+2019-12-31 15:55:05.600  INFO 14044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:55:05.601  INFO 14044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:55:05.608  INFO 14044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-31 15:57:14.378  INFO 15960 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 15960 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:57:14.386  INFO 15960 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:57:16.414  INFO 15960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:57:16.432  INFO 15960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:57:16.433  INFO 15960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:57:16.899  INFO 15960 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:57:16.906  INFO 15960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:57:16.907  INFO 15960 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2427 ms
+2019-12-31 15:57:17.110  INFO 15960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:57:17.208  INFO 15960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:57:17.348  INFO 15960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:57:17.353  INFO 15960 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 4.047 seconds (JVM running for 6.368)
+2019-12-31 15:57:39.574  INFO 15960 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 15:57:39.575  INFO 15960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 15:57:39.585  INFO 15960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-31 15:59:22.285  INFO 27664 --- [main] com.workman.SpringbootApplication        : Starting SpringbootApplication on DESKTOP-0B8266I with PID 27664 (D:\workspace_idea\springboot\target\classes started by liuzhuang in D:\workspace_idea\springboot)
+2019-12-31 15:59:22.293  INFO 27664 --- [main] com.workman.SpringbootApplication        : No active profile set, falling back to default profiles: default
+2019-12-31 15:59:25.102  INFO 27664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-31 15:59:25.128  INFO 27664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 15:59:25.131  INFO 27664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-31 15:59:25.910  INFO 27664 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-31 15:59:25.918  INFO 27664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 15:59:25.918  INFO 27664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3473 ms
+2019-12-31 15:59:26.292  INFO 27664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-31 15:59:26.419  INFO 27664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-31 15:59:26.627  INFO 27664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-31 15:59:26.632  INFO 27664 --- [main] com.workman.SpringbootApplication        : Started SpringbootApplication in 5.949 seconds (JVM running for 9.427)
+2019-12-31 16:00:21.898  INFO 27664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-31 16:00:21.898  INFO 27664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-31 16:00:21.909  INFO 27664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
