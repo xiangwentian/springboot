@@ -1,5 +1,6 @@
 package com.workman.entity;
 
+import com.workman.validator.FlagValidator;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.validator.constraints.Length;
@@ -26,7 +27,7 @@ public class ValidatorDemoEntity implements Serializable {
     @NotBlank
     @Email
     private String mail;
-    //@FlagValidator
-    //private String flag;
+    @FlagValidator(value = "1,2,3")
+    private String flag;
 
 }
