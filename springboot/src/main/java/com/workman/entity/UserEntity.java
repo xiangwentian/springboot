@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Setter
 @Entity
 @Table(name="t_user")
-public class UserEntity implements Serializable {
+public class UserEntity extends BaseEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "t_id")
